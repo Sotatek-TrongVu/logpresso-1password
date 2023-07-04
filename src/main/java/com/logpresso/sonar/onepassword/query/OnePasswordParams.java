@@ -31,7 +31,6 @@ public class OnePasswordParams extends ConnectProfileParams {
 
     public void setQueryTo( String queryTo ) {
         this.queryTo = queryTo.substring(0, 4) + "-" + queryTo.substring(4, 6) + "-" + queryTo.substring(6, 8) + "T" + queryTo.substring(8, 10) + ":" + queryTo.substring(10, 12) + ":" + queryTo.substring(12, 14) + "-00:00";
-
     }
 
 }

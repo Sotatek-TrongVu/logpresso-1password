@@ -26,9 +26,20 @@ public abstract class OnePasswordQueryCommandParser extends ConnectProfileQueryC
     @Override
     protected ConnectProfileParams parseParams( QueryContext context, Map<String, String> opts ) {
         OnePasswordParams params = new OnePasswordParams();
-        params.setLimit(Integer.parseInt(opts.get("limit")));
-        params.setQueryFrom(opts.get("from"));
-        params.setQueryTo(opts.get("to"));
+
+        if (opts.get("limit") != null){
+            params.setLimit(Integer.parseInt(opts.get("limit")));
+        }else{
+            params.setLimit(100);
+        }
+
+        if (opts.get("from") != null) {
+            params.setQueryFrom(opts.get("from"));
+        }
+
+        if(opts.get("to") != null){
+            params.setQueryTo(opts.get("to"));
+        }
         return params;
     }
 
