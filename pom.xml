@@ -72,8 +72,8 @@
                             *
                         </Import-Package>
                         <Private-Package>
+                            com.logpresso.sonar.onepassword.query,
                             com.logpresso.sonar.onepassword.impl
-                            com.logpresso.sonar.onepassword.query
                         </Private-Package>
                     </instructions>
                 </configuration>
