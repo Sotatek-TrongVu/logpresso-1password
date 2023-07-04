@@ -56,9 +56,9 @@
                 <extensions>true</extensions>
                 <configuration>
                     <instructions>
-                        <Bundle-SymbolicName>com.logpresso.sonar.sample</Bundle-SymbolicName>
+                        <Bundle-SymbolicName>com.logpresso.sonar.onepassword</Bundle-SymbolicName>
                         <Export-Package>
-                            com.logpresso.sonar.sample;version=${project.version},
+                            com.logpresso.sonar.onepassword;version=${project.version},
                         </Export-Package>
                         <Import-Package>
                             org.json;version="1.1.0",
@@ -72,8 +72,8 @@
                             *
                         </Import-Package>
                         <Private-Package>
-                            com.logpresso.sonar.sample.impl,
-                            com.logpresso.sonar.sample.query,
+                            com.logpresso.sonar.onepassword.impl
+                            com.logpresso.sonar.onepassword.query
                         </Private-Package>
                     </instructions>
                 </configuration>

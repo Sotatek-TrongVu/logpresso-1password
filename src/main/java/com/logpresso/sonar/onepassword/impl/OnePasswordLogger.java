@@ -21,7 +21,7 @@ import java.util.Map;
 
 public class OnePasswordLogger extends AbstractLogger implements Reconfigurable {
 
-    private static final String CONNECT_PROFILE_TYPE = "sample";
+    private static final String CONNECT_PROFILE_TYPE = "one-password";
     private final org.slf4j.Logger slog = org.slf4j.LoggerFactory.getLogger(OnePasswordLogger.class);
 
     private ConnectProfileService connectProfileService;
