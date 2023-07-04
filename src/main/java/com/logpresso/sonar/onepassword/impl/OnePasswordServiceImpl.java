@@ -1,7 +1,7 @@
-package com.logpresso.sonar.impl;
+package com.logpresso.sonar.onepassword.impl;
 
-import com.logpresso.sonar.query.OnePasswordQueryCommandParser;
-import com.logpresso.sonar.query.OnePasswordSignInAttemptsCommandParser;
+import com.logpresso.sonar.onepassword.query.OnePasswordQueryCommandParser;
+import com.logpresso.sonar.onepassword.query.OnePasswordSignInAttemptsCommandParser;
 import org.apache.felix.ipojo.annotations.*;
 import org.araqne.logdb.QueryParserService;
 import org.logpresso.api.profile.ConnectProfileService;

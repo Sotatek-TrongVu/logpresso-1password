@@ -1,4 +1,4 @@
-package com.logpresso.sonar.query;
+package com.logpresso.sonar.onepassword.query;
 
 import org.logpresso.api.profile.query.ConnectProfileParams;
 

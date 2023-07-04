@@ -1,4 +1,4 @@
-package com.logpresso.sonar.impl;
+package com.logpresso.sonar.onepassword.impl;
 
 import org.araqne.log.api.*;
 import org.json.JSONConverter;

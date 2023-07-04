@@ -1,4 +1,4 @@
-package com.logpresso.sonar.query;
+package com.logpresso.sonar.onepassword.query;
 
 import org.araqne.log.api.ValueType;
 import org.araqne.logdb.QueryCommand;

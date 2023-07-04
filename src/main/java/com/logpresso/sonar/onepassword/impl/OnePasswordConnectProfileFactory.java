@@ -1,4 +1,4 @@
-package com.logpresso.sonar.impl;
+package com.logpresso.sonar.onepassword.impl;
 
 import org.apache.felix.ipojo.annotations.*;
 import org.araqne.log.api.LoggerConfigOption;
@@ -11,7 +11,7 @@ import java.util.*;
 
 @Component(name = "one-password-connect-profile-factory")
 @Instantiate
-public class OnePasswordConnectProfileFactor extends AbstractConnectProfileFactory {
+public class OnePasswordConnectProfileFactory extends AbstractConnectProfileFactory {
     @Requires
     private ConnectProfileFactoryRegistry connectProfileFactoryRegistry;
 

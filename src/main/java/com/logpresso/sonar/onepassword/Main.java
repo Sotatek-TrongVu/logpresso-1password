@@ -1,7 +1,7 @@
-package com.logpresso.sonar;
+package com.logpresso.sonar.onepassword;
 
-import com.logpresso.sonar.query.OnePasswordParams;
-import com.logpresso.sonar.query.OnePasswordSignInAttemptsCommand;
+import com.logpresso.sonar.onepassword.query.OnePasswordParams;
+import com.logpresso.sonar.onepassword.query.OnePasswordSignInAttemptsCommand;
 import org.logpresso.api.profile.ConnectProfile;
 
 import java.util.HashMap;

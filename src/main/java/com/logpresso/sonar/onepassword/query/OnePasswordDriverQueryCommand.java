@@ -1,9 +1,8 @@
-package com.logpresso.sonar.query;
+package com.logpresso.sonar.onepassword.query;
 
 import org.araqne.log.api.RestApiClient;
 import org.araqne.logdb.DriverQueryCommand;
 import org.araqne.logdb.FieldOrdering;
-import org.araqne.logdb.Strings;
 import org.logpresso.api.profile.ConnectProfile;
 
 import java.io.IOException;
